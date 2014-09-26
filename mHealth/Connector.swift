@@ -13,8 +13,9 @@ class Connector{
     func connect(){
         println("HealthKit Client Starts...")
         
-        // TODO: Find HealthKit Swift API documentation
-        
+        /*
+        * FrameWork Doc: https://developer.apple.com/library/ios/documentation/HealthKit/Reference/HealthKit_Framework/index.html#//apple_ref/doc/uid/TP40014707
+        */
         println("HealthKit Client Ends...")
     }
 }
