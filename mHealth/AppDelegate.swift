@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         Caller().connect()
         Authenticator().connect()
+        Connector().connect()
         return true
     }
 

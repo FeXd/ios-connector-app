@@ -18,6 +18,7 @@
 		7B25DC7F19CB958300FD906E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B25DC7E19CB958300FD906E /* SwiftyJSON.swift */; };
 		7B25DC8219D218EA00FD906E /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B25DC8119D218EA00FD906E /* Authenticator.swift */; };
 		7B25DC8919D4DBDF00FD906E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B25DC8819D4DBDF00FD906E /* HealthKit.framework */; };
+		7BCB584D19D4EA8F005044A0 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCB584C19D4EA8F005044A0 /* Connector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		7B25DC8119D218EA00FD906E /* Authenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
 		7B25DC8319D4D54C00FD906E /* mHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = mHealth.entitlements; sourceTree = "<group>"; };
 		7B25DC8819D4DBDF00FD906E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		7BCB584C19D4EA8F005044A0 /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		7B25DC3419C9CA6D00FD906E /* mHealth */ = {
 			isa = PBXGroup;
 			children = (
+				7BCB584919D4EA4B005044A0 /* HealthKit Client */,
 				7B25DC8319D4D54C00FD906E /* mHealth.entitlements */,
 				7B25DC8019D2189400FD906E /* Keychain Client */,
 				7B25DC5719C9D0F500FD906E /* DSU Client */,
@@ -170,6 +173,14 @@
 				7B25DC8119D218EA00FD906E /* Authenticator.swift */,
 			);
 			name = "Keychain Client";
+			sourceTree = "<group>";
+		};
+		7BCB584919D4EA4B005044A0 /* HealthKit Client */ = {
+			isa = PBXGroup;
+			children = (
+				7BCB584C19D4EA8F005044A0 /* Connector.swift */,
+			);
+			name = "HealthKit Client";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				7B25DC8219D218EA00FD906E /* Authenticator.swift in Sources */,
 				7B25DC3A19C9CA6D00FD906E /* ViewController.swift in Sources */,
 				7B25DC5919C9D14000FD906E /* Caller.swift in Sources */,
+				7BCB584D19D4EA8F005044A0 /* Connector.swift in Sources */,
 				7B25DC3819C9CA6D00FD906E /* AppDelegate.swift in Sources */,
 				7B25DC7F19CB958300FD906E /* SwiftyJSON.swift in Sources */,
 			);

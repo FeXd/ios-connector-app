@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import HealthKit
+
+class Connector{
+    func connect(){
+        println("HealthKit Client Starts...")
+        
+        // TODO: Find HealthKit Swift API documentation
+        
+        println("HealthKit Client Ends...")
+    }
+}
