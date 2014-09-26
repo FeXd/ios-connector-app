@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5C088DF9-0A82-4D2F-9D79-3A74C3D2C05D</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>91260DB942A4D5A8217F5E289AB5AB0A1E1BB7D8</key>
+		<string>https://github.com/openmhealth/ios-connector-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>91260DB942A4D5A8217F5E289AB5AB0A1E1BB7D8</key>
+		<string>mHealth</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/openmhealth/ios-connector-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>91260DB942A4D5A8217F5E289AB5AB0A1E1BB7D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>91260DB942A4D5A8217F5E289AB5AB0A1E1BB7D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mHealth</string>
+		</dict>
+	</array>
+</dict>
+</plist>
