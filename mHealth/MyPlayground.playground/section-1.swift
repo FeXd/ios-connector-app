@@ -22,3 +22,4 @@ println("Weight in KG: \(weightValue)")
 println("Weight in Pound: \(weightValue.doubleValueForUnit(HKUnit.poundUnit()))")
 println("Weight in Grams: \(weightValue.doubleValueForUnit(HKUnit.gramUnit()))")
 
+ 
