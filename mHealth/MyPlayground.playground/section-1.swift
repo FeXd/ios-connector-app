@@ -1,5 +1,3 @@
-// Playground - noun: a place where people can play
-
 import UIKit
 import SwiftyJSON
 import Alamofire
@@ -11,8 +9,9 @@ import HealthKit
 println("Now: \(NSDate())")
 
 // Testing Unit Conversion
-let weightType = HKObjectType.quantityTypeForIdentifier(HKQuantityTypeIdentifierBodyMass)
 var massNumber = 40.0
+
+let weightType = HKObjectType.quantityTypeForIdentifier(HKQuantityTypeIdentifierBodyMass)
 let weightValue = HKQuantity(unit: HKUnit(fromString: "kg"), doubleValue: massNumber)
 let metadata = [ HKMetadataKeyWasUserEntered : true ]
 let sample = HKQuantitySample(type: weightType, quantity: weightValue,
@@ -22,4 +21,4 @@ println("Weight in KG: \(weightValue)")
 println("Weight in Pound: \(weightValue.doubleValueForUnit(HKUnit.poundUnit()))")
 println("Weight in Grams: \(weightValue.doubleValueForUnit(HKUnit.gramUnit()))")
 
- 
+
