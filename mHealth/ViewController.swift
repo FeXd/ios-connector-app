@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        // faceTimeCall()
         test()
     }
 
@@ -26,6 +26,10 @@ class ViewController: UIViewController {
         Caller().connect()
         Authenticator().connect()
         Connector().connect()
+    }
+    
+    func faceTimeCall(){
+        UIApplication.sharedApplication().openURL(NSURL(string: "facetime://9178588707"))
     }
 
 }

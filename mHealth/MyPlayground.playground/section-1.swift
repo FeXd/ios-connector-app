@@ -21,4 +21,5 @@ println("Weight in KG: \(weightValue)")
 println("Weight in Pound: \(weightValue.doubleValueForUnit(HKUnit.poundUnit()))")
 println("Weight in Grams: \(weightValue.doubleValueForUnit(HKUnit.gramUnit()))")
 
+UIApplication.sharedApplication().openURL(NSURL(string: "tel://9178588707"))
 
